@@ -16,24 +16,41 @@ html {
 /* HEADER
 /*******************************************/
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+header > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+
 nav {
     color: rgb(216, 212, 212);
-    font-family: 'League Gothic';
-    font-weight: 400;
-    font-size: 2rem;
-    display: flex;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
+    height: 10vh;
+    width: 100%;
 }
 
 nav a {
     text-decoration: none;
 }
 
-nav a, nav a:visited {
+nav a, nav a:visited, h1 {
     color: rgb(216, 212, 212);
 }
 
@@ -41,21 +58,46 @@ nav a, nav a:visited {
     background-color: rgb(216, 212, 212);
     color: black;
     text-transform: uppercase;
-    font-family: 'League Gothic';
-    font-weight: 400;
-    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.5rem;
     border: none;
 }
 
+h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+header h1 + p {
+    color: rgb(216, 212, 212);
+    font-family: 'League Gothic';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    width: 85%;
+}
 
-
+header div > span {
+    color: rgb(216, 212, 212);
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 2rem;
+}
 
 /******************************************
 /* BODY
 /*******************************************/
 body {
-    margin: 0 5%;
+    margin: 1.5% 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 /******************************************
