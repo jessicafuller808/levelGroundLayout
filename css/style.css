@@ -13,22 +13,51 @@ html {
 
 
 /******************************************
-/* BASE STYLES
+/* HEADER
 /*******************************************/
+
+nav {
+    color: rgb(216, 212, 212);
+    font-family: 'League Gothic';
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a, nav a:visited {
+    color: rgb(216, 212, 212);
+}
+
+.donate {
+    background-color: rgb(216, 212, 212);
+    color: black;
+    text-transform: uppercase;
+    font-family: 'League Gothic';
+    font-weight: 400;
+    font-size: 2rem;
+    border: none;
+}
+
+
 
 
 
 /******************************************
-/* LAYOUT
+/* BODY
 /*******************************************/
-header {
-
-}
-
-footer {
-
+body {
+    margin: 0 5%;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* FOOTER
 /*******************************************/
