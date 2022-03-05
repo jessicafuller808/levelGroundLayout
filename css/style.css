@@ -292,7 +292,9 @@ footer {
 #social, .footerLinks {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
+
 
 address h4 {
     color: var(--color2);
@@ -308,4 +310,5 @@ address {
     font-family: sans-serif;
     font-size: 1.5rem;
     line-height: 1.4em;
+    width: 20%;
 }
