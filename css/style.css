@@ -267,7 +267,11 @@ footer {
     text-transform: none;
 }
 
-#social {
+.footerNav h4 {
+    margin-bottom: .5em;
+}
+
+#social, .footerLinks {
     display: flex;
     justify-content: space-between;
 }
