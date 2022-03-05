@@ -52,7 +52,9 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     height: 10vh;
-    width: 100%;
+    width: 90%;
+    margin-top: 1em;
+    align-items: center;
 }
 
 nav a {
