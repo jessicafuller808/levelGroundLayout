@@ -107,16 +107,23 @@ body {
 }
 
 .why {
+    height: 65vh;
+}
+
+.why, .volunteer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 65vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(247, 247, 247);
 }
 
-.why h2 {
+.volunteer {
+    height: 80vh;
+}
+
+.why h2, .volunteer h2 {
     font-size: 5.5rem;
     font-family: 'League Gothic';
     font-weight: 400;
@@ -125,12 +132,16 @@ body {
     margin-bottom: .3em;
 }
 
-.why p {
+.why p, .volunteer p {
     font-family: sans-serif;
     font-size: 1.8rem;
     text-align: center;
     width: 35%;
     line-height: 1.3em;
+}
+
+.volunteer p {
+    margin-bottom: 2em;
 }
 
 /* Cards Section */
@@ -141,7 +152,7 @@ body {
     width: 100%;
     justify-content: center;
     background-color: rgb(216, 212, 212);
-    height: 90vh;
+    height: 100vh;
 }
 
 .cards section {
@@ -158,23 +169,26 @@ body {
 
 .card img {
     width: 75%;
-    height: 40%;
+    height: 35%;
     margin: 4em auto;
 }
 
-.cardButton{
+.cardButton, .volunteer button{
     color: black;
     font-family: 'League Gothic';
     font-weight: 400;
     font-size: 2rem;
     text-transform: uppercase;
-    background-color: rgb(216, 212, 212);
     width: 10em;
     height: 3em;
     border: 1px solid rgb(87, 87, 87);
 }
 
-.cardButton a {
+.cardButton {
+    background-color: rgb(216, 212, 212);
+}
+
+.cardButton a, .volunteer a {
     text-decoration: none;
     color: black;
 }
@@ -188,13 +202,20 @@ h3 {
     font-family: 'League Gothic';
     font-weight: 400;
     text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 h3 + p {
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
+    width: 80%;
+    line-height: 1.2em;
+    margin-bottom: 2em;
 }
+
+/* Volunteer Section */
 
 
 
