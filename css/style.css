@@ -66,10 +66,13 @@ nav ul a, nav ul a:visited {
 .donate {
     background-color: var(--color1);
     border: none;
+    height: 2.5em;
+    border-radius: .5em;
+    
 }
 
 .donate a {
-    color: var(--color3);
+    color: #02508A;
     text-transform: uppercase;
     font-family: 'Poppins';
     font-weight: 500;
@@ -252,7 +255,7 @@ footer {
 }
 
 .footerNav {
-    color: grey;
+    color: rgb(146, 146, 146);
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 1.5rem;
