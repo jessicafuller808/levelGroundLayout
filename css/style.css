@@ -134,10 +134,27 @@ body {
 }
 
 .cards section {
+    display: flex;
     flex-direction: column;
     width: 35%;
     height: auto;
     justify-content: center;
+}
+
+.cardButton{
+    color: black;
+    font-family: 'League Gothic';
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+/**
+* TODO 1. take the underline off this button link
+*/
+.cardButton, .cardButton:visited {
+    color: black;
+    text-decoration: none;
 }
 
 h3 {
@@ -152,6 +169,7 @@ h3 + p {
     font-size: 1.5rem;
     text-align: center;
 }
+
 
 
 
