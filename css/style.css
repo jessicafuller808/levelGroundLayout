@@ -140,7 +140,8 @@ body {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    background-color: rgb(216, 212, 212);;
+    background-color: rgb(216, 212, 212);
+    height: 90vh;
 }
 
 .cards section {
@@ -153,6 +154,12 @@ body {
 
 .card {
     align-items: center;
+}
+
+.card img {
+    width: 75%;
+    height: 40%;
+    margin: 4em auto;
 }
 
 .cardButton{
