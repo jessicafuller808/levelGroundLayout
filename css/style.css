@@ -1,6 +1,12 @@
 /* Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:wght@200;500&display=swap');
 
+/* Color Variable */
+
+:root {
+    --color3: #161F2A;
+}
+
 /* Box Model Hack */
 * {
     box-sizing: border-box;
@@ -222,3 +228,8 @@ h3 + p {
 /******************************************
 /* FOOTER
 /*******************************************/
+
+footer {
+    width: 100%;
+    background-color: #161F2A;
+}
