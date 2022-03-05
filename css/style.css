@@ -131,6 +131,7 @@ body {
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    background-color: rgb(216, 212, 212);;
 }
 
 .cards section {
@@ -141,20 +142,28 @@ body {
     justify-content: center;
 }
 
+.card {
+    align-items: center;
+}
+
 .cardButton{
     color: black;
     font-family: 'League Gothic';
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
+    background-color: rgb(216, 212, 212);
+    width: 10em;
+    height: 3em;
 }
 
-/**
-* TODO 1. take the underline off this button link
-*/
-.cardButton, .cardButton:visited {
-    color: black;
+.cardButton a {
     text-decoration: none;
+    color: black;
+}
+
+.cardButton a:visited {
+    color: black;
 }
 
 h3 {
