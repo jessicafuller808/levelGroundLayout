@@ -4,6 +4,8 @@
 /* Color Variable */
 
 :root {
+    --color1: rgb(216, 212, 212);
+    --color2: rgb(247, 247, 247);
     --color3: #161F2A;
 }
 
