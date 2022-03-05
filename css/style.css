@@ -21,7 +21,8 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-image: url('https://omertith.sirv.com/LevelGround%20Site/ring.jpg');
+    background-size: cover;
 }
 
 header > section {
@@ -100,7 +101,6 @@ header div > span a {
 /* BODY
 /*******************************************/
 body {
-    margin: 1.5% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +169,6 @@ h3 + p {
     font-size: 1.5rem;
     text-align: center;
 }
-
 
 
 
