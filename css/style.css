@@ -65,20 +65,33 @@ nav ul a, nav ul a:visited {
     color: var(--color1);
 }
 
+nav ul {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+
 .donate {
     background-color: var(--color1);
     border: none;
-    height: 2.5em;
+    height: 2.8em;
+    width: 6em;
     border-radius: .5em;
-    
+}
+
+.buttonContainer {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .donate a {
-    color: #02508A;
+    color: #024a81;
     text-transform: uppercase;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 h1 {
