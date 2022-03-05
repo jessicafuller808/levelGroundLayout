@@ -236,7 +236,7 @@ footer {
 
 .fa-brands, .fa-solid {
     color: var(--color1);
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 .topFooter {
@@ -280,7 +280,7 @@ address h4 {
     color: var(--color2);
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
@@ -288,5 +288,6 @@ address h4 {
 address {
     color: var(--color1);
     font-family: sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.4em;
 }
