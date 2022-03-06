@@ -111,7 +111,7 @@ header h1 + p {
     line-height: 1.3em;
     letter-spacing: .1em;
     text-align: center;
-    width: 70%;
+    width: 78%;
 }
 
 header div > span a {
@@ -318,7 +318,7 @@ address {
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    width: 100%;
+    width: auto;
 }
 
 hr {
