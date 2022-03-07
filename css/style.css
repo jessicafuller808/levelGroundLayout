@@ -34,7 +34,7 @@ header {
     height: 90vh;
 }
 
-#mainStyle {
+#main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
