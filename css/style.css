@@ -103,7 +103,6 @@ h1 {
     font-size: 7rem;
     text-transform: uppercase;
     text-align: center;
-    backdrop-filter: blur(.1em);
 }
 
 header h1 + p {
@@ -175,7 +174,7 @@ body {
     margin-bottom: 2em;
 }
 
-/* Cards Section */
+/* Cards */
 
 .cards {
     display: flex;
@@ -198,30 +197,6 @@ body {
     align-items: center;
 }
 
-.card img {
-    width: 75%;
-    height: 30%;
-    margin: 4em auto;
-}
-
-.cardButton, .volunteer button{
-    color: black;
-    font-family: 'League Gothic';
-    font-weight: 400;
-    font-size: 2rem;
-    text-transform: uppercase;
-    width: 10em;
-    height: 3em;
-    border: 1px solid rgb(87, 87, 87);
-}
-
-.cardButton {
-    background-color: var(--color1);
-    text-decoration: none;
-    color: var(--color3);
-    letter-spacing: .09em;
-}
-
 h3 {
     font-size: 2.5rem;
     font-family: 'League Gothic';
@@ -240,11 +215,36 @@ h3 + p {
     margin-bottom: 2em;
 }
 
-.cardButton:hover {
+
+.card img {
+    width: 75%;
+    height: 30%;
+    margin: 4em auto;
+}
+
+.cardButton {
+    color: black;
+    font-family: 'League Gothic';
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 10em;
+    height: 3em;
+    border: 1px solid rgb(87, 87, 87);
+    background-color: var(--color1);
+    text-decoration: none;
+    color: var(--color3);
+    letter-spacing: .09em;
+}
+
+.cardButton:hover, .volunteer .cardButton:hover {
     background-color: #05375D;
     color: var(--color2);
 }
 
+.volunteer .cardButton {
+    background-color: var(--color2);
+}
 
 
 /******************************************
