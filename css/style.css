@@ -63,10 +63,6 @@ nav a {
     text-decoration: none;
 }
 
-nav ul a:hover {
-    font-size: 1.8rem;
-}
-
 
 nav ul a, nav ul a:visited {
     color: var(--color1);
@@ -79,6 +75,10 @@ nav ul {
     justify-content: space-between;
 }
 
+nav ul a:hover {
+    font-size: 1.8rem;
+    color: var(--color2);
+}
 
 .donate {
     background-color: var(--color1);
@@ -96,7 +96,7 @@ nav ul {
 .donate:hover {
     background-color: var(--color3);
     color: var(--color2);
-    border: .3rem solid whitesmoke;
+    border: .1rem solid var(--color2);
     cursor: pointer;
 }
 
