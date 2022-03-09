@@ -63,9 +63,15 @@ nav a {
     text-decoration: none;
 }
 
+nav ul a:hover {
+    font-size: 1.8rem;
+}
+
+
 nav ul a, nav ul a:visited {
     color: var(--color1);
 }
+
 
 nav ul {
     display: flex;
