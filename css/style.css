@@ -4,7 +4,7 @@
 :root {
     --color1: rgb(216, 212, 212);
     --color2: rgb(247, 247, 247);
-    --color3: #161F2A;
+    --color3: #03192b;
 }
 
 /* Box Model Hack */
@@ -86,6 +86,18 @@ nav ul {
     height: 2.8em;
     width: 6em;
     border-radius: .5em;
+    color: #024a81;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.donate:hover {
+    background-color: var(--color3);
+    color: var(--color2);
+    border: .3rem solid whitesmoke;
+    cursor: pointer;
 }
 
 .buttonContainer {
@@ -94,13 +106,6 @@ nav ul {
     justify-content: flex-end;
 }
 
-.donate a {
-    color: #024a81;
-    text-transform: uppercase;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 1.5rem;
-}
 
 h1 {
     color: var(--color2);
@@ -166,6 +171,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: .3em;
+    color: var(--color3);
 }
 
 .why p, .volunteer p {
@@ -204,21 +210,23 @@ body {
 }
 
 h3 {
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     font-family: 'League Gothic';
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1em;
+    color: var(--color3);
 }
 
 h3 + p {
     font-family: sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-align: center;
     width: 80%;
     line-height: 1.2em;
     margin-bottom: 2em;
+    color: var(--color3);
 }
 
 
