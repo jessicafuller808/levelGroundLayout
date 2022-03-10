@@ -316,8 +316,8 @@ footer {
 .topFooter {
     display: flex;
     justify-content: space-between;
-    width: 98%;
-    margin-top: 1em;
+    width: 91%;
+    margin-top: 4em;
     align-items: center;
 }
 
@@ -394,14 +394,14 @@ address a:hover {
 .bottomFooter {
     background-color: var(--color3);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 100%;
+    width: 91%;
 }
 
 hr {
-    width: 90%;
+    width: 91%;
 }
 
 h5 {
@@ -412,9 +412,6 @@ h5 {
 }
 
 @media (max-width: 1380px) {
-    .bottomFooter {
-        width: 100%;
-    }
     
     h5 {
         font-size: 1.2rem;
