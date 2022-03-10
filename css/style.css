@@ -137,6 +137,13 @@ header div > span a {
     backdrop-filter: blur(5em);
 }
 
+span a:hover {
+    font-size: 2.2rem;
+}
+
+.fa-circle-play {
+    margin-right: .3em; 
+}
 
 /******************************************
 /* BODY
