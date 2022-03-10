@@ -104,7 +104,7 @@ nav ul a:hover {
 }
 
 .donate:hover {
-    background-color: var(--color3);
+    background-color: #024a81;
     color: var(--color2);
     border: .1rem solid var(--color2);
     cursor: pointer;
@@ -292,8 +292,13 @@ footer {
 
 .fa-brands, .fa-solid {
     color: var(--color1);
-    font-size: 2.2em;
+    font-size: 2.5rem;
 }
+
+.fa-brands:hover, .fa-solid:hover {
+    font-size: 2.8rem;
+}
+
 
 .topFooter {
     display: flex;
@@ -332,7 +337,6 @@ footer {
     justify-content: space-between;
     width: 80%;
 }
-
 
 address h4 {
     color: var(--color2);
